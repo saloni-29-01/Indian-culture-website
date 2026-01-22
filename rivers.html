@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rivers of India | Visit India</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+      color: #033e6b;
+    }
+
+    header {
+      background: linear-gradient(90deg, #0288d1, #4fc3f7);
+      text-align: center;
+      padding: 15px 0;
+      color: white;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      width: 90%;
+      margin: 30px auto;
+      text-align: center;
+    }
+
+    h2 {
+      color: #0277bd;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #045174;
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+
+    .river-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    .river-card {
+      background: #ffffff;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+      transition: transform 0.3s, box-shadow 0.3s;
+      animation: flowIn 1s ease-in-out;
+    }
+
+    .river-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+    }
+
+    .river-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .river-card h3 {
+      color: #01579b;
+      font-size: 20px;
+      margin: 15px 0 5px;
+    }
+
+    .river-card p {
+      padding: 0 15px 15px;
+      color: #045174;
+      font-size: 15px;
+    }
+
+    footer {
+      background-color: #01579b;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 40px;
+    }
+
+    @keyframes flowIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🌊 Rivers of India</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="states.html">States</a>
+      <a href="cultures.html">Culture</a>
+      <a href="rivers.html">Rivers</a>
+      <a href="uts.html">Union Territories</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Life Lines of India</h2>
+    <p>India’s great rivers nourish our land, sustain our agriculture, and hold deep cultural and spiritual importance. Here are some of the most significant ones:</p>
+
+    <div class="river-grid">
+
+      <div class="river-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Ganga_River_in_Varanasi.jpg" alt="Ganga River">
+        <h3>Ganga</h3>
+        <p>Originating from the Gangotri Glacier, the holy Ganga flows through northern India and is revered as a goddess in Hinduism.</p>
+      </div>
+
+      <div class="river-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Yamuna_River_near_Agra.jpg" alt="Yamuna River">
+        <h3>Yamuna</h3>
+        <p>Flowing parallel to the Ganga, the Yamuna passes through Delhi and Agra and is considered sacred, associated with Lord Krishna.</p>
+      </div>
+
+      <div class="river-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Brahmaputra_river_in_Assam.jpg" alt="Brahmaputra River">
+        <h3>Brahmaputra</h3>
+        <p>Originating in Tibet as Tsangpo, it enters India through Arunachal Pradesh and flows through Assam, enriching its plains.</p>
+      </div>
+
+      <div class="river-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Godavari_River_in_Nashik.jpg" alt="Godavari River">
+        <h3>Godavari</h3>
+        <p>Known as the Dakshin Ganga (Ganga of the South), the Godavari is India’s second-longest river, flowing through central India.</p>
+      </div>
+
+      <div class="river-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Krishna_River_Bridge.jpg" alt="Krishna River">
+        <h3>Krishna</h3>
+        <p>Originating from Maharashtra, the Krishna River flows through Karnataka and Andhra Pradesh, vital for southern agriculture.</p>
+      </div>
+
+      <div class="river-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Narmada_river.jpg" alt="Narmada River">
+        <h3>Narmada</h3>
+        <p>The Narmada flows westward through central India and forms the natural boundary between North and South India.</p>
+      </div>
+
+      <div class="river-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/Kaveri_River.jpg" alt="Cauvery River">
+        <h3>Cauvery (Kaveri)</h3>
+        <p>The Cauvery River is known as the “Ganga of the South,” providing water for irrigation and revered in southern traditions.</p>
+      </div>
+
+      <div class="river-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Mahanadi_River_Cuttack.jpg" alt="Mahanadi River">
+        <h3>Mahanadi</h3>
+        <p>Flowing through Chhattisgarh and Odisha, the Mahanadi is famous for the Hirakud Dam and fertile delta in the east.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Visit India | Designed with 💙 by Saloni Singh Rajput</p>
+  </footer>
+
+</body>
+</html>

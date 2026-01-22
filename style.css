@@ -1,0 +1,107 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fff8e1;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ff9933;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.intro {
+  text-align: center;
+  padding: 30px;
+}
+
+.map {
+  width: 50%;
+  margin-top: 20px;
+  border: 3px solid #138808;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #138808;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 30px;
+}
+/* Union Territories Page */
+.hero {
+  text-align: center;
+  background: linear-gradient(135deg, #ff9933, #ffffff, #138808);
+  color: #333;
+  padding: 50px 20px;
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 1000px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.ut-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 40px 20px;
+}
+
+.ut-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ut-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.ut-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.ut-card h3 {
+  color: #138808;
+  margin: 10px 0;
+  font-size: 1.3em;
+}
+
+.ut-card p {
+  color: #444;
+  font-size: 0.95em;
+  padding: 0 15px 10px;
+  line-height: 1.5;
+}
+
+footer {
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+footer span {
+  color: #ff6600;
+}

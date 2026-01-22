@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Culture & Festivals | Visit India</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background: linear-gradient(to bottom, #fff8e1, #fff3e0);
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #ff9933, #ffffff, #138808);
+      text-align: center;
+      padding: 15px 0;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: #000;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ff6600;
+    }
+
+    .container {
+      width: 90%;
+      margin: 30px auto;
+      text-align: center;
+    }
+
+    h2 {
+      color: #ff6600;
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+      color: #444;
+      margin-bottom: 30px;
+    }
+
+    .festival-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    .festival-card {
+      background: #ffffff;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: transform 0.3s, box-shadow 0.3s;
+      overflow: hidden;
+    }
+
+    .festival-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+    }
+
+    .festival-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .festival-card h3 {
+      color: #138808;
+      margin-top: 10px;
+      font-size: 20px;
+    }
+
+    .festival-card p {
+      padding: 0 10px 20px;
+      color: #555;
+      font-size: 15px;
+    }
+
+    footer {
+      background-color: #138808;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 40px;
+    }
+
+    /* Small animation for entry */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .festival-card {
+      animation: fadeIn 1s ease-in-out;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🇮🇳 Indian Culture & Festivals</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="states.html">States</a>
+      <a href="cultures.html">Culture</a>
+      <a href="rivers.html">Rivers</a>
+      <a href="uts.html">Union Territories</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Celebrating the Colors of India</h2>
+    <p>India’s culture is one of the oldest and most diverse in the world. Each state has its unique art, food, dance, and traditions. Here are some of our most famous festivals and cultural highlights:</p>
+
+    <div class="festival-grid">
+      <div class="festival-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Diwali_Diyas.jpg" alt="Diwali">
+        <h3>Diwali</h3>
+        <p>The Festival of Lights symbolizes the victory of light over darkness and good over evil. Homes are decorated with diyas and rangoli.</p>
+      </div>
+
+      <div class="festival-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Holi_festival.jpg" alt="Holi">
+        <h3>Holi</h3>
+        <p>Known as the Festival of Colors, Holi celebrates love and the arrival of spring with joy, colors, and music.</p>
+      </div>
+
+      <div class="festival-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/14/Onam_Pookalam.jpg" alt="Onam">
+        <h3>Onam</h3>
+        <p>Onam is Kerala’s harvest festival, marked with floral decorations (Pookalam), feasts, and traditional dances like Thiruvathira.</p>
+      </div>
+
+      <div class="festival-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Durga_Puja_Pandal.jpg" alt="Durga Puja">
+        <h3>Durga Puja</h3>
+        <p>Celebrated mainly in West Bengal, Durga Puja honors Goddess Durga and features grand pandals, cultural shows, and music.</p>
+      </div>
+
+      <div class="festival-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Pongal_in_Tamil_Nadu.jpg" alt="Pongal">
+        <h3>Pongal</h3>
+        <p>Pongal is Tamil Nadu’s harvest festival, thanking the Sun God for prosperity and good harvests.</p>
+      </div>
+
+      <div class="festival-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Bihu_dancers_Assam.jpg" alt="Bihu">
+        <h3>Bihu</h3>
+        <p>Bihu is Assam’s cultural festival celebrated with traditional dance, music, and feasting marking the Assamese New Year.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Visit India | Designed with ❤ by Saloni Singh Rajput</p>
+  </footer>
+
+</body>
+</html>
